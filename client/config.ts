@@ -2,15 +2,15 @@ import {config as dotEnvConfig, DotenvParseOutput} from "dotenv";
 
 interface IGlobalConfig extends DotenvParseOutput {
     /**
-     * The protocol to use when connecting to the console.
+     * The protocol to use when connecting to the server.
      */
     server_protocol: string;
     /**
-     * The host to use when connecting to the console.
+     * The host to use when connecting to the server.
      */
     server_host: string;
     /**
-     * The port to use when connecting to the console.
+     * The port to use when connecting to the server.
      */
     server_port: string;
 
